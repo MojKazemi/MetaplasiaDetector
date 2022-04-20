@@ -616,7 +616,7 @@ class Ui_widget(object):
         self.popup(txt='Excel file exported')
 
     def _restartgui1(self):
-        print('')
+        print('..')
         # items = self.tableWidget.selectedItems()
         # for item in items:
         # # Code to delete items in database
