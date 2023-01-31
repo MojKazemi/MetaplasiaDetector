@@ -1,5 +1,3 @@
-
-# from fbs_runtime.application_context.PyQt5 import ApplicationContext
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QDialog, QFileDialog, QApplication, QWidget
 from PyQt5.QtGui import *
@@ -19,6 +17,10 @@ from sklearn.metrics import cohen_kappa_score
 a=[]
 
 class Ui_widget(object):
+    '''
+        Designed by Mojtaba Kazemi, Elahe Faramini, Nadia Panarisi, Martina Faggiano.
+        The GUI develops an ML algorithm for the diagnosis of Gastric Intestinal Metaplasia (GIM) using image processing.
+    '''
     def __init__(self):
         self.columnNum = 19
         self.RowNum = 100
