@@ -19,7 +19,7 @@ class Ui_picture(object):
         self.label = QtWidgets.QLabel(Form)
         self.label.setGeometry(QtCore.QRect(0, -30, 1111, 841))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap('./data/orig/'+str(b)))
+        self.label.setPixmap(QtGui.QPixmap(b)) #'./data/orig/'+str(b)))
         self.label.setObjectName("label")
 
         self.retranslateUi(Form)
